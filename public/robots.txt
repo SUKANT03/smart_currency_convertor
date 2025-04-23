@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Element Table View</title>
+</head>
+<body>
+  <h1>Element Table View</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Element</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Button</td>
+        <td>button</td>
+        <td><button>Button</button></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Image</td>
+        <td>image</td>
+        <td><img src="https://example.com/image.jpg" alt="Image"></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Input</td>
+        <td>input</td>
+        <td><input type="text" placeholder="Enter text"></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
